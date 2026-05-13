@@ -1,0 +1,14 @@
+# Add project specific ProGuard rules here.
+-keepattributes *Annotation*
+-keepattributes SourceFile,LineNumberTable
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.admin.DeviceAdminReceiver
+-keep class com.alzahra.** { *; }
+-keep class com.alzahra.service.** { *; }
+-keep class com.alzahra.receiver.** { *; }
+-keepnames class com.alzahra.MainActivity
+-dontwarn android.support.**
+-dontwarn androidx.**

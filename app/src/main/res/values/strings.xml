@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Al-Zahra</string>
+    <string name="service_running">نظام الحماية يعمل</string>
+    <string name="service_description">خدمة المزامنة والحماية</string>
+    <string name="channel_name">Al-Zahra Service</string>
+    <string name="channel_description">قناة الإشعارات الرئيسية</string>
+    <string name="accessibility_description">خدمة إمكانية الوصول لمراقبة وحماية الجهاز</string>
+    <string name="notification_listener_description">خدمة مراقبة الإشعارات</string>
+</resources>
