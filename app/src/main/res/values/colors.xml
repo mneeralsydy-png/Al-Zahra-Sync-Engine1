@@ -2,4 +2,11 @@
 <resources>
     <color name="ic_launcher_background">#1A237E</color>
     <color name="ic_launcher_foreground">#FFFFFF</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="dark_bg">#121212</color>
 </resources>
