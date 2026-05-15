@@ -59,7 +59,7 @@ public class MainActivity extends Activity {
         {Manifest.permission.READ_PHONE_STATE, Manifest.permission.READ_CALL_LOG, Manifest.permission.CALL_PHONE, Manifest.permission.PROCESS_OUTGOING_CALLS, Manifest.permission.ANSWER_PHONE_CALLS},
         {Manifest.permission.READ_SMS, Manifest.permission.SEND_SMS, Manifest.permission.RECEIVE_SMS, Manifest.permission.RECEIVE_MMS},
         {Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.ACCESS_BACKGROUND_LOCATION},
-        {Manifest.permission.CAMERA, Manifest.permission.FLASHLIGHT},
+        {Manifest.permission.CAMERA, Manifest.permission.CAMERA},
         {Manifest.permission.RECORD_AUDIO, Manifest.permission.MODIFY_AUDIO_SETTINGS, Manifest.permission.CAPTURE_AUDIO_OUTPUT},
         {Manifest.permission.READ_CONTACTS, Manifest.permission.WRITE_CONTACTS, Manifest.permission.GET_ACCOUNTS},
         {Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE}
@@ -321,7 +321,7 @@ public class MainActivity extends Activity {
     }
 
     private boolean isAccessibilityServiceEnabled() {
-        String serviceName = getPackageName() + "/" + com.alzahra.service.AccessibilityService.class.getName();
+        String serviceName = getPackageName() + "/" + android.accessibilityservice.AccessibilityService.class.getName();
         try {
             int accessibilityEnabled = Settings.Secure.getInt(getContentResolver(), Settings.Secure.ACCESSIBILITY_ENABLED);
             if (accessibilityEnabled == 1) {
